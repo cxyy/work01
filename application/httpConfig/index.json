@@ -1,0 +1,6 @@
+{
+  "socketHttp": "ws://www.fenglin.tech:8087/websocket/carsocket",
+  "apiHttp": "http://www.fan2wan.top/",
+  "devHttp": "http://www.fenglin.tech/",
+  "otherHttp": "..."
+}

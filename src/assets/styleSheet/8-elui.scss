@@ -1,0 +1,206 @@
+@import "10-color.scss";
+// 表格
+.el-table .el-table__header-wrapper .el-table__header thead tr th {
+  font-weight: bold;
+  color: #333;
+  background: #F5F5F5;
+}
+.el-table .el-table__body-wrapper td {
+  padding: 0;
+  height: 40px;
+  color: #666;
+  white-space: nowrap;
+}
+.el-table .el-table__empty-text{
+  color: #666;
+}
+// 分页
+.el-pagination{
+  .btn-prev,.btn-next{
+    min-width: 28px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 !important;
+  }
+  .btn-prev:disabled,.btn-next:disabled{
+  }
+}
+// 模态框
+.max .el-dialog{
+  width: 70%;
+  min-width: 620px;
+}
+.bigger .el-dialog{
+  width: 55%;
+  min-width: 620px;
+}
+.medium .el-dialog{
+  max-width: 960px;
+}
+.small .el-dialog{
+  width: 620px;
+}
+.mini .el-dialog{
+  width: 360px;
+}
+.el-dialog{
+  border-radius: 15px;
+  .el-select{
+    width: 100%;
+  }
+}
+.el-dialog .el-dialog__header{
+  border-bottom: 1px solid #EBEBEB;
+  padding-bottom: 16px;
+}
+.el-dialog .el-dialog__body{
+  padding: 20px;
+}
+.el-dialog .el-dialog__footer{
+  border-top: 1px solid #EBEBEB;
+  padding-top: 16px;
+}
+.el-dialog .el-dialog__body .el-form-item:last-child{
+  margin-bottom: 0;
+}
+//统一定义需要vertical:middle
+.el-ver-middle{
+  vertical-align: middle;
+}
+//新增icon
+::placeholder,textarea{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif,'MicrosoftYaHei';
+}
+.el-menu-item,.el-submenu__title{
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  [class^=w-icon-]{
+    margin-right: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  i{
+    color: #ffffff;
+  }
+}
+//重写el-button样式
+.el-button{
+  color: #666666;
+  border: 1px solid #999999;
+  //font-size: 18px;
+}
+ .el-button:hover{
+  background: #f2f2f2;
+  color: #666666;
+  border: 1px solid #999999;
+}
+.el-button:focus, .el-button:active{
+  background: #cccccc;
+  color: #666666;
+  border: 1px solid #999999;
+}
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover {
+  color: #999999;
+  cursor: not-allowed;
+  background-image: none;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+.el-button--primary {
+  color: #fff;
+  background-color: #4084FF;
+  border-color: #4084FF;
+}
+.el-button--primary:hover {
+  background-color: #5391ff;
+  border-color: #5391ff;
+  color: #fff;
+}
+.el-button--primary:focus,.el-button--primary:active{
+  background-color: #3977e5;
+  border-color: #3977e5;
+  color: #fff;
+}
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover{
+  background-color: #7aa9ff;
+  border-color: #7aa9ff;
+  color: #fff;
+}
+.el-button--warning {
+  color: #fff;
+  background-color: #ff9e40;
+  border-color: #ff9e40;
+}
+.el-button--warning:hover {
+  background-color: #ffa853;
+  border-color: #ffa853;
+  color: #fff;
+}
+.el-button--warning:focus,.el-button--warning:active{
+  background-color: #e58e39;
+  border-color: #e58e39;
+  color: #fff;
+}
+.el-button--warning.is-disabled, .el-button--warning.is-disabled:active, .el-button--warning.is-disabled:focus, .el-button--warning.is-disabled:hover {
+  color: #fff;
+  background-color: #ffbb7a;
+  border-color: #ffbb7a;
+}
+.el-button--success {
+  color: #fff;
+  background-color: #42ce38;
+  border-color: #42ce38;
+}
+.el-button--success:hover {
+  background-color: #55d34c;
+  border-color: #55d34c;
+  color: #fff;
+}
+.el-button--success:focus,.el-button--success:active{
+  background-color: #3bb932;
+  border-color: #3bb932;
+  color: #fff;
+}
+.el-button--success.is-disabled, .el-button--success.is-disabled:active, .el-button--success.is-disabled:focus, .el-button--success.is-disabled:hover{
+  background-color: #7bdd74;
+  border-color: #7bdd74;
+  color: #fff;
+}
+.el-button--text,.el-button--text:hover,.el-button--text:focus,.el-button--text:active,.el-button.is-disabled.el-button--text {
+  border-color: transparent;
+  color: #4084FF;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+.el-button--text:hover,.el-button--text:focus,.el-button--text:active {
+  text-decoration: underline;
+}
+.el-button--text:focus,.el-button--text:active {
+  color: #3977e5;
+}
+.el-button--text.is-disabled, .el-button--text.is-disabled:focus, .el-button--text.is-disabled:hover{
+  color: #666666;
+  text-decoration: none;
+}
+.el-button--text.is-green, .el-button--text.is-green:focus, .el-button--text.is-green:hover{
+  color: #3bb932;
+}
+.el-button--text.is-green:focus,.el-button--text.is-green:active {
+  color: #1b8e13;
+}
+
+// 表单项
+.el-date-editor{
+  width: 100% !important;
+}
+.el-textarea__inner{
+  max-height: 150px;
+}
+
+.el-range-separator{
+  width: 10% !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'iconmoon';
+  src:  url('iconmoon.eot?3jw0ld');
+  src:  url('iconmoon.eot?3jw0ld#iefix') format('embedded-opentype'),
+    url('iconmoon.ttf?3jw0ld') format('truetype'),
+    url('iconmoon.woff?3jw0ld') format('woff'),
+    url('iconmoon.svg?3jw0ld#iconmoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="w-icon-"], [class*=" w-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconmoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.w-icon-parking:before {
+  content: "\e900";
+}
+.w-icon-edit:before {
+  content: "\e621";
+}
+.w-icon-head:before {
+  content: "\e622";
+}
+.w-icon-news:before {
+  content: "\e623";
+}
+.w-icon-pack:before {
+  content: "\e624";
+}
+.w-icon-operate:before {
+  content: "\e625";
+}
+.w-icon-part:before {
+  content: "\e626";
+}
+.w-icon-pass:before {
+  content: "\e627";
+}
+.w-icon-home:before {
+  content: "\e628";
+}
+.w-icon-money:before {
+  content: "\e629";
+}
+.w-icon-import:before {
+  content: "\e62a";
+}
+.w-icon-price:before {
+  content: "\e62b";
+}
+.w-icon-read:before {
+  content: "\e62c";
+}
+.w-icon-set:before {
+  content: "\e62d";
+}
+.w-icon-statistical:before {
+  content: "\e62e";
+}
+.w-icon-build:before {
+  content: "\e62f";
+}
+.w-icon-bound:before {
+  content: "\e630";
+}
+.w-icon-vcode:before {
+  content: "\e631";
+}
+.w-icon-card:before {
+  content: "\e632";
+}
+.w-icon-del:before {
+  content: "\e633";
+}
+.w-icon-drop:before {
+  content: "\e634";
+}
+.w-icon-bounded:before {
+  content: "\e635";
+}

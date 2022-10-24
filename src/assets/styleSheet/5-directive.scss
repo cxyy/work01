@@ -1,0 +1,7 @@
+@import "10-color.scss";
+.auto-title{
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

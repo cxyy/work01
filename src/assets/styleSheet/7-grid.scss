@@ -1,0 +1,73 @@
+@import "10-color.scss";
+// 边距组
+@for $i from 0 to 10{
+  .margin-top-#{5*$i} { margin-top: 5px * $i; }
+  .margin-right-#{5*$i} { margin-right: 5px * $i; }
+  .margin-bottom-#{5*$i} { margin-bottom: 5px * $i; }
+  .margin-left-#{5*$i} { margin-left: 5px * $i; }
+}
+@for $i from 0 to 10{
+  .padding-top-#{5*$i} { padding-top: 5px * $i; }
+  .padding-right-#{5*$i} { padding-right: 5px * $i; }
+  .padding-bottom-#{5*$i} { padding-bottom: 5px * $i; }
+  .padding-left-#{5*$i} { padding-left: 5px * $i; }
+
+}
+.clear-padding{
+  padding: 0;
+}
+.clear-margin{
+  margin: 0;
+}
+
+// 宽度
+.qy-block{
+  width: 100%;
+}
+.qy-inline-block{
+  display: inline-block;
+}
+
+// 浮动
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+// 文案
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+// 垂直居中
+.vertical-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+// 鼠标手势
+.cur-pointer{
+  cursor: pointer;
+}
+.cur-disabled{
+  cursor: not-allowed;
+}
+
+// 文字换行
+.nowrap{
+  white-space: nowrap;
+}
